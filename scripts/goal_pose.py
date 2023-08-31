@@ -31,7 +31,7 @@ goal = MoveBaseGoal()
 goal.target_pose.header.frame_id = "map"
 goal.target_pose.header.stamp = rospy.Time.now()
 
-goal.target_pose.pose.position.x = -2.16
+goal.target_pose.pose.position.x = 2.16
 goal.target_pose.pose.position.y =  0.764
 goal.target_pose.pose.position.z =  0.0
 goal.target_pose.pose.orientation.x = 0.0
